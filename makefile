@@ -4,6 +4,12 @@ setup:
 build:
 	nasm -f bin -o boot.bin boot.asm
 
+build:
+	nasm -f bin -o boot.iso boot.asm
+
+run: build
+	qemu-system-i386 boot.iso
+
 run: build
 	qemu-system-i386 boot.bin
 debug: build
