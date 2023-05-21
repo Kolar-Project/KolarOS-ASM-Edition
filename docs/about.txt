@@ -1,0 +1,23 @@
+this file is for explaining for what works each file of the src.
+
+Files:
+
+boot.asm - is the boot file, works for well, boot the os
+compile.bat - is for compile the os, have to be opened via NASM
+cygwin1.dll - is a dll used by the mkisofs.exe file for convert the .bin file to a .iso file
+kolar.bin - the compiled os in the .bin format, is bootable
+kolar.iso - the compiled os in the .iso format, is bootable
+makefile - is the makefile of the src, it doesnt work so i dont know why it is here
+mkisofs.exe - is used for convert the .bin file to a .iso file
+nasm - its just nasm direct access
+README PLEASE!!.txt - read it please
+run.bat - is for run the compiled iso in QEMU
+
+Folders:
+
+cdiso - is where the 'kolar.flp' file is saved to convert the 'kolar.bin' file to the 'kolar.iso' file or whatever :)
+
+and thats it for now
+
+with love, GreenSoupDev.
+
