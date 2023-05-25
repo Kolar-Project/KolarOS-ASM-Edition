@@ -1,10 +1,11 @@
 this is a alpha version of kolaros asm edition!!
 so dont expect a thing, the os is in development!!
 
-build 21052023 (21 may 2023 build)
+build 27052023 (21 may 2023 build)
 version 0.0.26
 
 how to compile the os:
+
 
 you first need to install the NASM compiler
 
@@ -22,8 +23,7 @@ where you have the src saved.)
 Linux:
 
 
-to compile the os just run the terminal and now go to the path to where you have the src saved and run the 'build-linux.sh' file that is in the tools folder
-and thats it
+to compile the os just run the terminal and now go to the path to where you have the src saved and type 'make'
 
 (you need to edit the 'build-linux.bsh' file and you have to edit the paths to
 where you have the src saved.)
