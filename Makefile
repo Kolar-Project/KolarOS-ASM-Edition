@@ -2,7 +2,7 @@ all:
 # builds the kernel
 	nasm -f bin -o bin/kolar.bin src/boot.asm
 # copies the kernel
-	cp bin/kolar.bin bin/kolar.flp
+	cp bin/kolar.bin bin/kolar.flp	
 #makes an ISO
 	grub-mkrescue /usr/lib/grub/i386-pc -o bin/kolar.iso ./bin
 
@@ -20,4 +20,4 @@ debugr: all
 #remote debug using GDB
 clean:
 # JUST DELETES JUNK LIKE OBJECT FILES - fuck capslock
-	-rm -rf kernel/*/*.o kernel/boot/*.o kernel/util/*.o kernel/drivers/*.o kernel/gdt/*.o kernel/interrupts/*.o kernel/memory/*.o kernel/render/*.o kernel/*.o os.iso .vscode/ kernel/kernel.bin iso/boot/kernel.bin
+	rm bin/kolar.iso

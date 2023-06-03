@@ -1,0 +1,208 @@
+<!-- coded by greensoupdev, some of the code has been taken from the win xp readme cuz im lazy lol -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KolarOS Coralriff ReadMe</title>
+</head>
+<style>
+
+body { 
+    font-size: 80%; 
+    background-color: #ffffff; 
+    color: #000000; 
+    font-family: Verdana, Arial, Helvetica, Sans Serif; 
+    margin-left: 2em; 
+    margin-right: 2em; 
+}
+
+    h1 { 
+        clear: both; 
+        font-size: 170%; 
+        margin-top: 3em; 
+        margin-bottom: 0.5em 
+    }
+
+    h2 { 
+        clear: both; 
+        font-size: 130%; 
+        margin-top: 1.5em; 
+        margin-bottom: 0.5em 
+    }
+    h3 { 
+        clear: both; 
+        font-size: 120%; 
+        margin-top: 1.2em; 
+        margin-bottom: 0.5em 
+    }
+    h4 { 
+        clear: both; 
+        font-size: 105%; 
+        margin-top: 1.5em; 
+        margin-bottom: -0.5em 
+    }
+    
+    p { 
+        clear: both; 
+        margin-top: 1.5em; 
+        margin-bottom: 0.6em 
+    }
+
+div.toc { margin-bottom: 6em; }
+
+div.toc UL { 
+    margin-top: -1em; 
+    margin-bottom: 2em; 
+    margin-left: 3.25em;  
+}
+
+div.toc A:link, div.toc A:visited { 
+    color: #0066cc; 
+    text-decoration: none
+ }
+
+div.toc a:hover 	{ 
+    color: #FF0000;  
+    cursor:hand; 
+    text-decoration:underline;
+}
+div.indent	{ margin-left: 1.3em;}
+
+div.pagebreak	{page-break-before: always; }
+
+div.indent	{ margin-left: 1.3em;}
+
+div.toc A:link, div.toc A:visited { 
+  
+    text-decoration: none
+    }
+
+</style>
+<body>
+    <A NAME="kolaros"><img src="docs/KOLCORAL_LOGO_HORIZ_SM.png" width="314" height="68" alt="KolarOS Coralriff"></A>
+    <h1>Release Notes for KolarOS&reg; Coralriff&reg;&nbsp;</h1>
+
+    <div CLASS="toc">
+        <p CLASS="toc1"><A HREF="#intro">Important Information About This Version of KolarOS&reg; Coralriff&reg;&nbsp;.</A></P>
+        
+        <p CLASS="toc1"><A HREF="#sysreq">System requisites.</A></P>
+
+        <p CLASS="toc1"><A HREF="#hwtcomp">How to compile the Operative System.</A></P>
+
+        <p CLASS="toc1"><A HREF="#credits">Credits.</A></P>
+
+          <p CLASS="toc1"><A HREF="#srccont">Source Code content.</A></P>
+        
+        </div>
+
+        <TABLE CLASS="heading" cellPadding=0 cellSpacing=0 width="97%">
+            <TBODY>
+            <TR vAlign=bottom>
+              <TD>
+                <H1><A NAME="intro"></A> Important Information About This Version of KolarOS&reg; Coralriff&reg;&nbsp;.</H1>
+              </TD>
+              <TD align=right><A class="finePrint" 
+                href="#kolaros">Back 
+                to Top</A></TD></TR></TBODY></TABLE>
+          <HR>
+            <p>This version of KolarOS&reg; Coralriff&reg;&nbsp; is a <strong>Alpha-Beta</strong> release of the Operative System. So you might be aware of the Bugs, errors and so on. Also, you can report errors on the <a href="https://github.com/Kolar-Project/KolarOS-ASM-Edition/tree/main"><strong>GitHub</strong> page </a>of KolarOS&reg; Coralriff&reg;&nbsp. Don't expect a lot of things in the Alpha-Beta versions so, Enjoy! (We guess.)</p>
+
+            <TABLE CLASS="heading" cellPadding=0 cellSpacing=0 width="97%">
+                <TBODY>
+                <TR vAlign=bottom>
+                  <TD>
+                    <H1><A NAME="sysreq"></A> System requisites.</H1>
+                  </TD>
+                  <TD align=right><A class="finePrint" 
+                    href="#kolaros">Back 
+                    to Top</A></TD></TR></TBODY></TABLE>
+              <HR>
+                <p>For now, the Operative System does not require a lot of requisites, at least for a 1983 PC.</p><br>
+                <p>CPU: Intel 80286 8MHz</p>
+                <p>RAM: 512KB</p>
+                <p>HDD: None</p>
+                <p>Extra: CD Drive, Disk Drive</p><br>
+                <p>And that's it for now.</p>
+
+                <TABLE CLASS="heading" cellPadding=0 cellSpacing=0 width="97%">
+                    <TBODY>
+                    <TR vAlign=bottom>
+                      <TD>
+                        <H1><A NAME="hwtcomp"></A> How to compile the Operative System.</H1>
+                      </TD>
+                      <TD align=right><A class="finePrint" 
+                        href="#kolaros">Back 
+                        to Top</A></TD></TR></TBODY></TABLE>
+                  <HR>
+                    <p>To compile the Operative System, you need first to install the NASM compiler, and download the KolarOS&reg; Coralriff&reg;&nbsp; Source Code, it can be downloaded on the Official <a href="https://github.com/Kolar-Project/KolarOS-ASM-Edition/tree/main"><strong>GitHub</strong> page. </a><br>
+                      <p>Also in Linux, you need to install Make and Git too.<br><br><br>
+
+                        Windows:<br><br>
+                        
+                        To compile the Operative System just run the "build-windows.bat" file that is located in the tools folder in the Source Code.<br>
+                         
+                        (You need to open the 'build-windows.bat' file and edit the paths to
+                        where you have the Source Code saved.)<br><br><br>
+                        
+                        
+                        Linux:<br><br>
+                        
+                        To compile the Operative System just run the Terminal. And now, go to the path where you have the Source Code saved and type 'make'<br><br>
+                        
+                        
+                        (The 'kolar.bin' file works too, so if you want you can run it)<br><br>
+                        
+                        When the Source Code is compiled, just run the 'run.bat' file to run the compiled iso in QEMU!<br><br><br></p>
+
+                        <TABLE CLASS="heading" cellPadding=0 cellSpacing=0 width="97%">
+                            <TBODY>
+                            <TR vAlign=bottom>
+                              <TD>
+                                <H1><A NAME="credits"></A> Credits.</H1>
+                              </TD>
+                              <TD align=right><A class="finePrint" 
+                                href="#kolaros">Back 
+                                to Top</A></TD></TR></TBODY></TABLE>
+                          <HR>
+
+                    <p>GreenSoupDev - Main Programmer and Product Director. lol?</p>
+                    <p>Windows 98 - Senior Programmer, KolarOS Creator and Boss. :D</p><br>
+            
+                    <TABLE CLASS="heading" cellPadding=0 cellSpacing=0 width="97%">
+                      <TBODY>
+                      <TR vAlign=bottom>
+                        <TD>
+                          <H1><A NAME="srccont"></A> Source Code content.</H1>
+                        </TD>
+                        <TD align=right><A class="finePrint" 
+                          href="#kolaros">Back 
+                          to Top</A></TD></TR></TBODY></TABLE>
+                    <HR>
+
+                      <p>Files:<br><br>
+                        
+                        src/boot.asm - Is the boot file, works for well, Boot the OS.<br>
+                        tools/build-windows.bat - Is for compile the OS in Windows.<br>
+                        tools/cygwin1.dll - It's a .DLL used by the 'mkisofs.exe' file to convert the compiled .bin file to a .iso file.<br>
+                        bin/kolar.bin - The compiled OS in the .bin format, is bootable.<br>
+                        bin/kolar.iso - The compiled OS in the .iso format, is bootable.<br>
+                        bin/kolar.flp - The compiled OS in the .flp format, i don't know if it is bootable.<br>
+                        bin/kolar.elf - The compiled OS in the .elf format, i don't know if it is bootable.<br>
+                        tools/mkisofs.exe - It's used to convert the compiled .bin file to a .iso file in Windows with the 'build-windows.bat' file.<br>
+                        tools/nasm - It's just nasm direct access.<br>
+                        run.bat - Is used for run the compiled .iso in QEMU.<br>
+                        Makefile - The makefile for compiling the OS with Make.
+                        <br><br>
+                        Folders:
+                        <br><br>
+                        bin - Is where the compiled files are saved.<br>
+                        src - Is where the src is saved.<br>
+                        docs - Just documentation.<br>
+                        tool - Is where the tools and things are saved.</p>
+                        <br><br><br><br><br>
+</body>
+</html>
