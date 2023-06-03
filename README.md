@@ -1,4 +1,5 @@
-![kolarostext](https://user-images.githubusercontent.com/109924369/209975051-750f239b-e3b1-4fbd-80b4-8a02f642f95d.png)
+![kol](https://github.com/Kolar-Project/KolarOS-ASM-Edition/assets/109924369/4a3cec82-3e74-4255-8d11-ca1fa81a20d4)
+
 # KolarOS Coralriff
 
 KolarOS Coralriff is an simple operating system only for your needs.
