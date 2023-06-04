@@ -14,6 +14,10 @@ CPU: Intel 80286 8MHz or better
 
 KolarOS has its own discord server: https://discord.gg/zjZFsvmc9Q.
 
+## Wiki
+
+KolarOS Coralriff has its own Wiki!: https://github.com/Kolar-Project/KolarOS-ASM-Edition/wiki
+
 ## Credits
 
 GreenSoupDev - https://github.com/GreenSoupDeveloper - Main Programmer and Product Director.
