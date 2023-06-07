@@ -7,7 +7,9 @@ KolarOS Coralriff is an simple operating system only for your needs.
 ## Requeriments
 
 ## Recommended:
+
 RAM: 512KB or above.
+
 CPU: Intel 80286 8MHz or better
 
 ## Discord
@@ -24,6 +26,6 @@ GreenSoupDev - https://github.com/GreenSoupDeveloper - Main Programmer and Produ
 
 Windows 98 - https://github.com/Windows-1998-Guy - Senior Programmer, KolarOS Creator and Boss.
 
-**_KolarOS Codename "ASM Edition"_** <br>
+**_KolarOS Codename "Caribe"_** <br>
 **_Copyright © The Kolar Project_** <br>
 **All rights reserved.**
